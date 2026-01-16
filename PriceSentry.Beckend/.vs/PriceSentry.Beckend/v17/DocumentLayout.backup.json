@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.domain\\productpricehistorty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|solutionrelative:pricesentry.domain\\productpricehistorty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.domain\\trackingiltem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|solutionrelative:pricesentry.domain\\trackingiltem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductPriceHistorty.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\ProductPriceHistorty.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Domain\\ProductPriceHistorty.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\ProductPriceHistorty.cs",
+              "RelativeToolTip": "PriceSentry.Domain\\ProductPriceHistorty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:58:18.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrackingIltem.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\TrackingIltem.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Domain\\TrackingIltem.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\TrackingIltem.cs",
+              "RelativeToolTip": "PriceSentry.Domain\\TrackingIltem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:50:16.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

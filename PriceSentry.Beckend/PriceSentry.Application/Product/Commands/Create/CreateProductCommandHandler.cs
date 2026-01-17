@@ -26,16 +26,15 @@ namespace PriceSentry.Application.Product.Commands.Create {
             };
             var price = new ProductPriceHistory {
                 Id = Guid.NewGuid(),
-                TrackingProductId = product.Id,
+                ProductId = product.Id,
                 AddDate = DateTime.UtcNow,
-                IsActive = true,
                 Price = product.ActualPrice,
                 TrackingProduct = product,
             };
             
 
-            await _dbContext.Product.AddAsync(product, cancellationToken);
-            await _dbContext.ProductPrice.AddAsync(price, cancellationToken);
+            await _dbContext.Products.AddAsync(product, cancellationToken);
+            await _dbContext.ProductPrices.AddAsync(price, cancellationToken);
             await _dbContext.SaveChangesAsync(cancellationToken);
             return product.Id;
         }

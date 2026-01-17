@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\commands\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\commands\\delete\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\interfaces.cs\\ipriceparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\interfaces.cs\\ipriceparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\commands\\create\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\commands\\create\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.domain\\productpricehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|solutionrelative:pricesentry.domain\\productpricehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.domain\\trackingproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|solutionrelative:pricesentry.domain\\trackingproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\price\\queries\\getpricehistorylist\\getpricehistoryquertyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\price\\queries\\getpricehistorylist\\getpricehistoryquertyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrackingProduct.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\TrackingProduct.cs",
-              "RelativeDocumentMoniker": "PriceSentry.Domain\\TrackingProduct.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\TrackingProduct.cs",
-              "RelativeToolTip": "PriceSentry.Domain\\TrackingProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IPriceParserService.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Interfaces.cs\\IPriceParserService.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Interfaces.cs\\IPriceParserService.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Interfaces.cs\\IPriceParserService.cs",
+              "RelativeToolTip": "PriceSentry.Application\\Interfaces.cs\\IPriceParserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T14:08:45.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductPriceHistory.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\ProductPriceHistory.cs",
-              "RelativeDocumentMoniker": "PriceSentry.Domain\\ProductPriceHistory.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\ProductPriceHistory.cs",
-              "RelativeToolTip": "PriceSentry.Domain\\ProductPriceHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T14:08:34.258Z",
+              "WhenOpened": "2026-01-17T18:43:42.169Z",
               "EditorCaption": ""
             },
             {
@@ -62,22 +45,22 @@
               "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Commands\\Create\\CreateProductCommandHandler.cs",
               "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Commands\\Create\\CreateProductCommandHandler.cs",
               "RelativeToolTip": "PriceSentry.Application\\Product\\Commands\\Create\\CreateProductCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T14:06:25.661Z",
+              "WhenOpened": "2026-01-17T18:43:52.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DeleteProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Commands\\Delete\\DeleteProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Commands\\Delete\\DeleteProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Commands\\Delete\\DeleteProductCommandHandler.cs",
-              "RelativeToolTip": "PriceSentry.Application\\Product\\Commands\\Delete\\DeleteProductCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GetPriceHistoryQuertyHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Price\\Queries\\GetPriceHistoryList\\GetPriceHistoryQuertyHandler.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Price\\Queries\\GetPriceHistoryList\\GetPriceHistoryQuertyHandler.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Price\\Queries\\GetPriceHistoryList\\GetPriceHistoryQuertyHandler.cs",
+              "RelativeToolTip": "PriceSentry.Application\\Price\\Queries\\GetPriceHistoryList\\GetPriceHistoryQuertyHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T13:20:48.487Z",
+              "WhenOpened": "2026-01-17T18:17:07.97Z",
               "EditorCaption": ""
             },
             {

@@ -10,6 +10,6 @@ namespace PriceSentry.Domain {
         public string? Title { get; set; }
         public DateTime? LastTracking { get; set; }
 
-        public List<ProductPriceHistory> PriceHistory { get; set; } = new List<ProductPriceHistory>();
+        public virtual List<ProductPriceHistory> PriceHistory { get; set; } = new List<ProductPriceHistory>();
     }
 }

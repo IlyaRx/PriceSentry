@@ -14,15 +14,13 @@ namespace PriceSentry.Application.Product.Commands.Delete {
         
 
         public async Task Handle(DeleteProductCommand request, CancellationToken cancellationToken) {
-            var entity = await _dbContext.Product.FindAsync(new object[] {request.Id}, cancellationToken);
-            var priceList = await _dbContext.ProductPrice.Where(p => p.TrackingProductId == request.Id).ToListAsync();
+            var entity = await _dbContext.Products.FindAsync(new object[] {request.Id}, cancellationToken);
 
             if(entity == null || request.UserId != entity.UserId) {
                 throw new NotFoundException(nameof(TrackingProduct), request);
             }
 
-            _dbContext.ProductPrice.RemoveRange(priceList);
-            _dbContext.Product.Remove(entity);
+            _dbContext.Products.Remove(entity);
             await _dbContext.SaveChangesAsync(cancellationToken);
         }
     }

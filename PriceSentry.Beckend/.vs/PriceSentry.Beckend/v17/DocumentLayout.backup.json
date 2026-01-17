@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.domain\\productpricehistorty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|solutionrelative:pricesentry.domain\\productpricehistorty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getproduct\\productditailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getproduct\\productditailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.domain\\trackingiltem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A069C73-4C8F-41BA-AAEC-DE8A5BEA9E10}|PriceSentry.Domain\\PriceSentry.Domain.csproj|solutionrelative:pricesentry.domain\\trackingiltem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getlistproducts\\productlookupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getlistproducts\\productlookupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getlistproducts\\productlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getlistproducts\\productlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getlistproducts\\productlistqueryhundler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getlistproducts\\productlistqueryhundler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getlistproducts\\productlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getlistproducts\\productlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getactualprice\\getactualpricequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getactualprice\\getactualpricequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getactualprice\\actualpricevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getactualprice\\actualpricevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getactualprice\\getactualpricequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getactualprice\\getactualpricequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductPriceHistorty.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\ProductPriceHistorty.cs",
-              "RelativeDocumentMoniker": "PriceSentry.Domain\\ProductPriceHistorty.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\ProductPriceHistorty.cs",
-              "RelativeToolTip": "PriceSentry.Domain\\ProductPriceHistorty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Title": "ProductDitailsVm.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetProduct\\ProductDitailsVm.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetProduct\\ProductDitailsVm.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetProduct\\ProductDitailsVm.cs*",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetProduct\\ProductDitailsVm.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T07:58:18.49Z",
+              "WhenOpened": "2026-01-17T16:36:19.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductListQueryHundler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQueryHundler.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQueryHundler.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQueryHundler.cs*",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQueryHundler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:16:49.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductListQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQuery.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQuery.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQuery.cs*",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListQuery.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:16:37.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductListVm.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListVm.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListVm.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListVm.cs*",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductListVm.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T16:09:29.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TrackingIltem.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\TrackingIltem.cs",
-              "RelativeDocumentMoniker": "PriceSentry.Domain\\TrackingIltem.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Domain\\TrackingIltem.cs",
-              "RelativeToolTip": "PriceSentry.Domain\\TrackingIltem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Title": "ProductLookupVm.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs*",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T07:50:16.384Z",
+              "WhenOpened": "2026-01-17T15:43:12.047Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetActualPriceQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQueryHandler.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQueryHandler.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQueryHandler.cs",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T14:45:13.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActualPriceVm.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetActualPrice\\ActualPriceVm.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetActualPrice\\ActualPriceVm.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetActualPrice\\ActualPriceVm.cs",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetActualPrice\\ActualPriceVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:46:10.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetActualPriceQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQuery.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQuery.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQuery.cs*",
+              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetActualPrice\\GetActualPriceQuery.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T13:43:43.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

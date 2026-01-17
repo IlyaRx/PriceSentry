@@ -4,9 +4,9 @@ using PriceSentry.Domain;
 
 namespace PriceSentry.Application.Interfaces.cs {
     public interface IPriceSentryDbContext {
-        DbSet<TrackingProduct> Product { get; set; }
+        DbSet<TrackingProduct> Products { get; set; }
 
-        DbSet<ProductPriceHistory> ProductPrice {  get; set; }
+        DbSet<ProductPriceHistory> ProductPrices {  get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }

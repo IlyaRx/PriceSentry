@@ -1,0 +1,15 @@
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\bin\Debug\net9.0\PriceSentry.Application.deps.json
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\bin\Debug\net9.0\PriceSentry.Application.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\bin\Debug\net9.0\PriceSentry.Application.pdb
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\bin\Debug\net9.0\PriceSentry.Domain.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\bin\Debug\net9.0\PriceSentry.Domain.pdb
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.csproj.AssemblyReference.cache
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.AssemblyInfoInputs.cache
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.AssemblyInfo.cs
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.csproj.CoreCompileInputs.cache
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSen.A7E81CC0.Up2Date
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\refint\PriceSentry.Application.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.pdb
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\ref\PriceSentry.Application.dll

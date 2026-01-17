@@ -1,5 +1,4 @@
 ﻿
-using PriceSentry.Domain;
 
 namespace PriceSentry.Application.Interfaces.cs {
     public interface IPriceParserService {

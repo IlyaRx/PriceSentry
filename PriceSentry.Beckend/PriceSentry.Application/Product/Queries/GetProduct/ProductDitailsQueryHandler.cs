@@ -2,7 +2,7 @@
 using AutoMapper;
 using MediatR;
 using PriceSentry.Application.Common.Exceptions;
-using PriceSentry.Application.Interfaces.cs;
+using PriceSentry.Application.Interfaces;
 using PriceSentry.Domain;
 
 namespace PriceSentry.Application.Product.Queries.GetProduct {

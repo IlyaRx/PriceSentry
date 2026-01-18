@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using PriceSentry.Application.Interfaces.cs;
+using PriceSentry.Application.Interfaces;
 using PriceSentry.Domain;
 
 namespace PriceSentry.Application.Product.Commands.Create {

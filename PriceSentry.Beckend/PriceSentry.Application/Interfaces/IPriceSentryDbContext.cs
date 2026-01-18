@@ -2,7 +2,7 @@
 using PriceSentry.Domain;
 
 
-namespace PriceSentry.Application.Interfaces.cs {
+namespace PriceSentry.Application.Interfaces {
     public interface IPriceSentryDbContext {
         DbSet<TrackingProduct> Products { get; set; }
 

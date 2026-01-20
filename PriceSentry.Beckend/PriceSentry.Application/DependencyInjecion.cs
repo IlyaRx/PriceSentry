@@ -3,8 +3,10 @@ using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using PriceSentry.Application.Common.Behavior;
-using System.Buffers;
+using PriceSentry.Application.Interfaces;
+using PriceSentry.Application.Sepvices;
 using System.Reflection;
+
 
 namespace PriceSentry.Application {
     public static class DependencyInjecion {
@@ -12,6 +14,7 @@ namespace PriceSentry.Application {
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
             services.AddValidatorsFromAssemblies(new[] {Assembly.GetExecutingAssembly()});
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            services.AddScoped<IPriceDropChecker, PriceDropCheckerService>();
             return services;
         }
     }

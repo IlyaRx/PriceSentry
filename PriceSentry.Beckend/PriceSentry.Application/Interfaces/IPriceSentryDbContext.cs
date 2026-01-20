@@ -7,6 +7,7 @@ namespace PriceSentry.Application.Interfaces {
         DbSet<TrackingProduct> Products { get; set; }
 
         DbSet<ProductPriceHistory> ProductPrices {  get; set; }
+        DbSet<ApplicationUser> Users {  get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }

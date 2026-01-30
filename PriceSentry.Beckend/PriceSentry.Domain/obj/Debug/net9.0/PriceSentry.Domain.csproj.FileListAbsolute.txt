@@ -9,3 +9,4 @@ C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentr
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Domain\obj\Debug\net9.0\refint\PriceSentry.Domain.dll
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Domain\obj\Debug\net9.0\PriceSentry.Domain.pdb
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Domain\obj\Debug\net9.0\ref\PriceSentry.Domain.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Domain\obj\Debug\net9.0\PriceSentry.Domain.csproj.AssemblyReference.cache

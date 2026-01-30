@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PriceSentry.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ddea3b78d7bea9b1113e9c16d4ffd1e0cdb1438")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69ad277f65c27955c67def6bc58eb62ffc6ce17d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PriceSentry.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PriceSentry.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

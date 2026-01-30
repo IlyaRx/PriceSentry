@@ -1,11 +1,10 @@
-﻿
-using PriceSentry.Application.Interfaces;
+﻿using PriceSentry.Application.Interfaces.Notifications;
 using PriceSentry.Domain;
 using Telegram.Bot;
 using Telegram.Bot.Types.Enums;
 
 namespace PriceSentry.Persistence.Services.Notification {
-    public class TelegramNotificationService : INotificationService {
+    public class TelegramNotificationService : IPriceNotificationService {
         private readonly ITelegramBotClient _botClient;
         public TelegramNotificationService(ITelegramBotClient telemetryClient) => _botClient = telemetryClient;
         public async Task SendPriceDropNotificationAsync(TrackingProduct product, decimal newPrice) {

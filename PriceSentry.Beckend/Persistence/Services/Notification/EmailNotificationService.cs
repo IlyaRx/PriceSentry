@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PriceSentry.Application.Common.Exceptions;
 using PriceSentry.Application.Interfaces;
+using PriceSentry.Application.Interfaces.Notifications;
 using PriceSentry.Domain;
 
 namespace PriceSentry.Persistence.Services.Notification {
-    public class EmailNotificationService : INotificationService { 
+    public class EmailNotificationService : IPriceNotificationService { 
         private readonly IPriceSentryDbContext _dbContext;
         private readonly IEmailService _emailSender;
 

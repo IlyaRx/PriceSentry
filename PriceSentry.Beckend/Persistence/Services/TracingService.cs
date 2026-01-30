@@ -1,19 +1,20 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using PriceSentry.Application.Interfaces;
+using PriceSentry.Application.Interfaces.Notifications;
 using PriceSentry.Domain;
 
 namespace PriceSentry.Persistence.Services {
     public class TracingService : ITrackingService {
         private readonly IPriceSentryDbContext _dbContext;
-        private readonly IPriceParserService _priceParserService;
+        private readonly IProductPriceProvider _priceParserService;
         private readonly IPriceDropChecker _priceDropChecker;
-        private readonly IEnumerable<INotificationService> _notificationService;
+        private readonly IEnumerable<IPriceNotificationService> _notificationService;
 
         public TracingService(IPriceSentryDbContext dbContext, 
-                              IPriceParserService priceParserService, 
+                              IProductPriceProvider priceParserService, 
                               IPriceDropChecker priceDropChecker,
-                              IEnumerable<INotificationService> notificationService) {
+                              IEnumerable<IPriceNotificationService> notificationService) {
             _dbContext = dbContext;
             _priceParserService = priceParserService;
             _priceDropChecker = priceDropChecker;

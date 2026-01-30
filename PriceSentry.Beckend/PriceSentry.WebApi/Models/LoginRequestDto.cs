@@ -1,0 +1,5 @@
+﻿namespace PriceSentry.WebApi.Models {
+    public class LoginRequestDto {
+        public required string Email { get; set; }
+    }
+}

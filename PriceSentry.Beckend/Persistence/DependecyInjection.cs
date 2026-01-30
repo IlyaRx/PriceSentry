@@ -1,11 +1,16 @@
-﻿using MailKit;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PriceSentry.Application.Interfaces;
+using PriceSentry.Application.Interfaces.Notifications;
+using PriceSentry.Domain;
 using PriceSentry.Persistence.Configuration;
+using PriceSentry.Persistence.Interfases;
 using PriceSentry.Persistence.Services;
 using PriceSentry.Persistence.Services.Notification;
+using PriceSentry.Persistence.Services.Shops;
+using System.Runtime.InteropServices;
 using Telegram.Bot;
 
 namespace PriceSentry.Persistence {
@@ -14,20 +19,30 @@ namespace PriceSentry.Persistence {
             var connectionString = configuration["DbConnection"];
             var botToken = configuration["TelegramBot:Token"];
 
+            services.AddDbContext<PriceSentryDbContext>(opt => opt.UseSqlite(connectionString));
+            services.AddScoped<IPriceSentryDbContext>(provider => provider.GetService<PriceSentryDbContext>());
+
+            services.AddScoped<ITrackingService, TracingService>();
+            services.AddScoped<IProductPriceProvider, PriceParserService>();
+            services.AddScoped<IPriceNotificationService, TelegramNotificationService>();
+            services.AddTransient<IEmailService, EmailService>();
+            services.AddScoped<IPriceNotificationService, EmailNotificationService>();
+            services.AddScoped<IStoregCodeService, MemoryCodeService>();
+            services.AddScoped<IGeneratedCode, GeneratedCodeSetvice>();
+            services.AddScoped<IUserCodeNotificationService, UserCodeEmailNotificationService>();
+            services.Configure<MailSettings>(configuration.GetSection("MailSettings"));
+            services.AddHostedService<TrackingBackgroundService>();
+            services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
+            services.AddScoped<ITokenService, JwtTokenService>();
+
+            services.AddSingleton<IShopPriceParser, CitilinkParserPrice>();
+
             if (string.IsNullOrEmpty(botToken))
                 throw new InvalidOperationException("TelegramBot:Token is not configured");
 
-            services.AddDbContext<PriceSentryDbContext>(opt => opt.UseSqlite(connectionString));
-            services.AddScoped<IPriceSentryDbContext>(provider => provider.GetService<PriceSentryDbContext>());
             services.AddSingleton<ITelegramBotClient>(sp => new TelegramBotClient(botToken));
-            services.AddScoped<ITrackingService, TracingService>();
-            services.AddScoped<IPriceParserService, PriceParserService>();
-            services.AddScoped<INotificationService, TelegramNotificationService>();
-            services.AddScoped<IEmailService, EmailService>();
-            services.AddScoped<INotificationService, EmailNotificationService> ();
-            services.Configure<MailSettings>(configuration.GetSection("MailSettings"));
-            services.AddTransient<IMailService, MailService>();
             return services;
         }
     }
 }
+

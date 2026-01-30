@@ -1,0 +1,17 @@
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.csproj.AssemblyReference.cache
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.AssemblyInfoInputs.cache
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.AssemblyInfo.cs
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\bin\Debug\net9.0\PriceSentry.Persistence.deps.json
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\bin\Debug\net9.0\PriceSentry.Persistence.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\bin\Debug\net9.0\PriceSentry.Persistence.pdb
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\bin\Debug\net9.0\PriceSentry.Application.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\bin\Debug\net9.0\PriceSentry.Domain.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\bin\Debug\net9.0\PriceSentry.Application.pdb
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\bin\Debug\net9.0\PriceSentry.Domain.pdb
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSen.16384718.Up2Date
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\refint\PriceSentry.Persistence.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.pdb
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\ref\PriceSentry.Persistence.dll

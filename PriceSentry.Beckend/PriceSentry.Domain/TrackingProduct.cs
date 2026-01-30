@@ -11,6 +11,6 @@ namespace PriceSentry.Domain {
         public DateTime? LastTracking { get; set; }
 
         public virtual List<ProductPriceHistory> PriceHistory { get; set; } = new List<ProductPriceHistory>();
-        public virtual ApplicationUser User { get; set; }
+        public required virtual ApplicationUser User { get; set; }
     }
 }

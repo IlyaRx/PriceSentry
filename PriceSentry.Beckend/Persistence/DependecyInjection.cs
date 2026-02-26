@@ -27,7 +27,6 @@ namespace PriceSentry.Persistence {
             services.AddScoped<IPriceNotificationService, TelegramNotificationService>();
             services.AddTransient<IEmailService, EmailService>();
             services.AddScoped<IPriceNotificationService, EmailNotificationService>();
-            services.AddScoped<IStoregCodeService, MemoryCodeService>();
             services.AddScoped<IGeneratedCode, GeneratedCodeSetvice>();
             services.AddScoped<IUserCodeNotificationService, UserCodeEmailNotificationService>();
             services.Configure<MailSettings>(configuration.GetSection("MailSettings"));
@@ -35,6 +34,7 @@ namespace PriceSentry.Persistence {
             services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
             services.AddScoped<ITokenService, JwtTokenService>();
 
+            services.AddSingleton<IStoregCodeService, MemoryCodeService>();
             services.AddSingleton<IShopPriceParser, CitilinkParserPrice>();
 
             if (string.IsNullOrEmpty(botToken))

@@ -6,9 +6,6 @@ using PriceSentry.Application.Common.Mappings;
 using PriceSentry.Application.Interfaces;
 using PriceSentry.Domain;
 using PriceSentry.Persistence;
-using PriceSentry.Persistence.Interfases;
-using PriceSentry.Persistence.Services;
-using System.Net;
 using System.Reflection;
 using System.Text;
 
@@ -19,6 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
 builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddTelegramBot(builder.Configuration);
 builder.Services.AddControllers();
 builder.Services.AddHttpContextAccessor();
 

@@ -15,7 +15,6 @@ namespace PriceSentry.Persistence.Services {
         
         public async Task SendEmailAsync(string to, string subjec, string body) {
 
-
             using var emailMessege = new MimeMessage();
 
             emailMessege.From.Add(new MailboxAddress(_mailSettings.DisplayName, _mailSettings.From));
@@ -24,10 +23,11 @@ namespace PriceSentry.Persistence.Services {
             emailMessege.Body = new TextPart(MimeKit.Text.TextFormat.Html) { Text = body };
 
             using (var client = new SmtpClient()) {
-                await client.ConnectAsync(_mailSettings.Host, 
+                await client.ConnectAsync(_mailSettings.Host,
                                           _mailSettings.Port,
-                                          _mailSettings.UseSSL ? 
-                                            SecureSocketOptions.SslOnConnect : 
+                                          //SecureSocketOptions.StartTls);
+                                          _mailSettings.UseSSL ?
+                                            SecureSocketOptions.SslOnConnect :
                                             SecureSocketOptions.None);
                 await client.AuthenticateAsync(_mailSettings.UserName, 
                                              _mailSettings.Password);

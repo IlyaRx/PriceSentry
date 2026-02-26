@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\queries\\getlistproducts\\productlookupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\queries\\getlistproducts\\productlookupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEB0856C-A723-479D-B304-8CFB48A6F437}|PriceSentry.WebApi\\PriceSentry.WebApi.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.webapi\\controllers\\priceproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEB0856C-A723-479D-B304-8CFB48A6F437}|PriceSentry.WebApi\\PriceSentry.WebApi.csproj|solutionrelative:pricesentry.webapi\\controllers\\priceproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEB0856C-A723-479D-B304-8CFB48A6F437}|PriceSentry.WebApi\\PriceSentry.WebApi.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEB0856C-A723-479D-B304-8CFB48A6F437}|PriceSentry.WebApi\\PriceSentry.WebApi.csproj|solutionrelative:pricesentry.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\product\\commands\\create\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\product\\commands\\create\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D36A9849-3152-4AE1-BA73-BCFD9B426140}|Persistence\\PriceSentry.Persistence.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\persistence\\services\\priceparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D36A9849-3152-4AE1-BA73-BCFD9B426140}|Persistence\\PriceSentry.Persistence.csproj|solutionrelative:persistence\\services\\priceparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\autorisation\\commands\\verification\\verificationusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\autorisation\\commands\\verification\\verificationusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D36A9849-3152-4AE1-BA73-BCFD9B426140}|Persistence\\PriceSentry.Persistence.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\persistence\\services\\shops\\citilinkparserprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D36A9849-3152-4AE1-BA73-BCFD9B426140}|Persistence\\PriceSentry.Persistence.csproj|solutionrelative:persistence\\services\\shops\\citilinkparserprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}|TelegramBotHost\\TelegramBotHost.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\telegrambothost\\handlers\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}|TelegramBotHost\\TelegramBotHost.csproj|solutionrelative:telegrambothost\\handlers\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}|TelegramBotHost\\TelegramBotHost.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\telegrambothost\\services\\telegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}|TelegramBotHost\\TelegramBotHost.csproj|solutionrelative:telegrambothost\\services\\telegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D36A9849-3152-4AE1-BA73-BCFD9B426140}|Persistence\\PriceSentry.Persistence.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\persistence\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D36A9849-3152-4AE1-BA73-BCFD9B426140}|Persistence\\PriceSentry.Persistence.csproj|solutionrelative:persistence\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\autorisation\\commands\\registration\\registrusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\autorisation\\commands\\registration\\registrusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|c:\\users\\ilyac\\documents\\repositories\\pricesentry\\pricesentry.beckend\\pricesentry.application\\dependencyinjecion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C58ED5-BB36-4363-8A2B-C1ED0E8AFF80}|PriceSentry.Application\\PriceSentry.Application.csproj|solutionrelative:pricesentry.application\\dependencyinjecion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,80 +47,88 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductLookupVm.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs",
-              "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs",
-              "RelativeToolTip": "PriceSentry.Application\\Product\\Queries\\GetListProducts\\ProductLookupVm.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T15:34:12.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CreateProductCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Commands\\Create\\CreateProductCommandHandler.cs",
               "RelativeDocumentMoniker": "PriceSentry.Application\\Product\\Commands\\Create\\CreateProductCommandHandler.cs",
               "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Product\\Commands\\Create\\CreateProductCommandHandler.cs",
               "RelativeToolTip": "PriceSentry.Application\\Product\\Commands\\Create\\CreateProductCommandHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwB4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T15:24:36.759Z",
+              "WhenOpened": "2026-02-26T14:54:50.479Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PriceProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.WebApi\\Controllers\\PriceProductController.cs",
-              "RelativeDocumentMoniker": "PriceSentry.WebApi\\Controllers\\PriceProductController.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.WebApi\\Controllers\\PriceProductController.cs",
-              "RelativeToolTip": "PriceSentry.WebApi\\Controllers\\PriceProductController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAnwBgAAAAsAAAAAAAAAA==",
+              "Title": "VerificationUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Autorisation\\Commands\\Verification\\VerificationUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Autorisation\\Commands\\Verification\\VerificationUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Autorisation\\Commands\\Verification\\VerificationUserCommandHandler.cs",
+              "RelativeToolTip": "PriceSentry.Application\\Autorisation\\Commands\\Verification\\VerificationUserCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T15:23:19.262Z",
+              "WhenOpened": "2026-02-26T14:23:03.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "PriceSentry.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.WebApi\\Program.cs",
-              "RelativeToolTip": "PriceSentry.WebApi\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "TelegramBotService.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\TelegramBotHost\\Services\\TelegramBotService.cs",
+              "RelativeDocumentMoniker": "TelegramBotHost\\Services\\TelegramBotService.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\TelegramBotHost\\Services\\TelegramBotService.cs",
+              "RelativeToolTip": "TelegramBotHost\\Services\\TelegramBotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T15:14:22.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CitilinkParserPrice.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\Persistence\\Services\\Shops\\CitilinkParserPrice.cs",
-              "RelativeDocumentMoniker": "Persistence\\Services\\Shops\\CitilinkParserPrice.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\Persistence\\Services\\Shops\\CitilinkParserPrice.cs",
-              "RelativeToolTip": "Persistence\\Services\\Shops\\CitilinkParserPrice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T14:39:09.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T14:15:29.949Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PriceParserService.cs",
-              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\Persistence\\Services\\PriceParserService.cs",
-              "RelativeDocumentMoniker": "Persistence\\Services\\PriceParserService.cs",
-              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\Persistence\\Services\\PriceParserService.cs",
-              "RelativeToolTip": "Persistence\\Services\\PriceParserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\Persistence\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Persistence\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\Persistence\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "Persistence\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T13:23:53.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T14:09:34.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjecion.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\DependencyInjecion.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\DependencyInjecion.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\DependencyInjecion.cs",
+              "RelativeToolTip": "PriceSentry.Application\\DependencyInjecion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:04:32.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Autorisation\\Commands\\Registration\\RegistrUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "PriceSentry.Application\\Autorisation\\Commands\\Registration\\RegistrUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\Autorisation\\Commands\\Registration\\RegistrUserCommandHandler.cs",
+              "RelativeToolTip": "PriceSentry.Application\\Autorisation\\Commands\\Registration\\RegistrUserCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:04:27.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\TelegramBotHost\\Handlers\\UpdateHandler.cs",
+              "RelativeDocumentMoniker": "TelegramBotHost\\Handlers\\UpdateHandler.cs",
+              "ToolTip": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\TelegramBotHost\\Handlers\\UpdateHandler.cs",
+              "RelativeToolTip": "TelegramBotHost\\Handlers\\UpdateHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T14:04:24.636Z"
             }
           ]
         }

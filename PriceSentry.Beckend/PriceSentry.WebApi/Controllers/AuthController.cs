@@ -18,13 +18,18 @@ namespace PriceSentry.WebApi.Controllers {
             _mediator = mediator;
         }
 
+        [HttpGet("telegramUrl/{id}")]
+        public ActionResult<string> TelegrammUrl(Guid id) {
+            return $"https://t.me/AssistantPearl_bot?start={id}";
+        }
+
         [HttpPost("login")]
         public async Task<ActionResult<Guid>> Login([FromBody] LoginRequestDto request) {
             var command = new RegistrUserCommand() { Email = request.Email};
             var userId = await _mediator.Send(command);
 
             return Ok(new { 
-                message = "Код отпарвылен нв почту",
+                message = "Код отпарвылен на почту",
                 userId
             });
         }
@@ -45,33 +50,5 @@ namespace PriceSentry.WebApi.Controllers {
             });
         }
 
-        }
-        // Простой тест-контроллер для UserManager
-        [ApiController]
-        [Route("api/test")]
-        public class TestController : ControllerBase {
-            private readonly UserManager<ApplicationUser> _userManager;
-
-            public TestController(UserManager<ApplicationUser> userManager) {
-                _userManager = userManager;
-            }
-
-            [HttpGet("check")]
-            public IActionResult CheckInjection() {
-                // Если не падает с ошибкой - UserManager внедрен!
-                return Ok(new { Message = "UserManager injected successfully" });
-            }
-
-            [HttpPost("create")]
-            public async Task<IActionResult> CreateTestUser() {
-                var user = new ApplicationUser {
-                    Email = "test@test.com",
-                    UserName = "test@test.com",
-                    TelegramChatId = 123456789
-                };
-
-                var result = await _userManager.CreateAsync(user, "Password123!");
-                return result.Succeeded ? Ok() : BadRequest(result.Errors);
-            }
     }
 }

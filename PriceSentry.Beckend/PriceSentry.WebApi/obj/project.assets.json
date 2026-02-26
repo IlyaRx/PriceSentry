@@ -1119,6 +1119,21 @@
         "runtime": {
           "bin/placeholder/PriceSentry.Persistence.dll": {}
         }
+      },
+      "TelegramBotHost/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.2",
+          "PriceSentry.Application": "1.0.0",
+          "Telegram.Bot": "22.8.1"
+        },
+        "compile": {
+          "bin/placeholder/TelegramBotHost.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TelegramBotHost.dll": {}
+        }
       }
     }
   },
@@ -2674,6 +2689,11 @@
       "type": "project",
       "path": "../Persistence/PriceSentry.Persistence.csproj",
       "msbuildProject": "../Persistence/PriceSentry.Persistence.csproj"
+    },
+    "TelegramBotHost/1.0.0": {
+      "type": "project",
+      "path": "../TelegramBotHost/TelegramBotHost.csproj",
+      "msbuildProject": "../TelegramBotHost/TelegramBotHost.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2682,7 +2702,8 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.12",
       "PriceSentry.Application >= 1.0.0",
       "PriceSentry.Persistence >= 1.0.0",
-      "SQLitePCLRaw.bundle_e_sqlite3 >= 3.0.2"
+      "SQLitePCLRaw.bundle_e_sqlite3 >= 3.0.2",
+      "TelegramBotHost >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2722,6 +2743,9 @@
             },
             "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\PriceSentry.Application.csproj": {
               "projectPath": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\PriceSentry.Application\\PriceSentry.Application.csproj"
+            },
+            "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\TelegramBotHost\\TelegramBotHost.csproj": {
+              "projectPath": "C:\\Users\\ilyac\\Documents\\Repositories\\PriceSentry\\PriceSentry.Beckend\\TelegramBotHost\\TelegramBotHost.csproj"
             }
           }
         }

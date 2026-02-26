@@ -12,7 +12,8 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "9.0.12",
           "PriceSentry.Application": "1.0.0",
           "PriceSentry.Persistence": "1.0.0",
-          "SQLitePCLRaw.bundle_e_sqlite3": "3.0.2"
+          "SQLitePCLRaw.bundle_e_sqlite3": "3.0.2",
+          "TelegramBotHost": "1.0.0"
         },
         "runtime": {
           "PriceSentry.WebApi.dll": {}
@@ -795,6 +796,19 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "TelegramBotHost/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.2",
+          "PriceSentry.Application": "1.0.0",
+          "Telegram.Bot": "22.8.1"
+        },
+        "runtime": {
+          "TelegramBotHost.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1207,6 +1221,11 @@
       "sha512": ""
     },
     "PriceSentry.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TelegramBotHost/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

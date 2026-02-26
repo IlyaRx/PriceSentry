@@ -36,7 +36,7 @@ namespace PriceSentry.Application.Product.Commands.Create {
                 ActualPrice = await priceTask,
                 Title = await titleTask,
                 LastTracking = DateTime.Now,
-                User = user
+                User = user!
             };
             var price = new ProductPriceHistory {
                 Id = Guid.NewGuid(),

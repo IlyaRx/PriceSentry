@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Persistence\PriceSentry.Persistence.csproj" />
     <ProjectReference Include="..\PriceSentry.Application\PriceSentry.Application.csproj" />
+    <ProjectReference Include="..\TelegramBotHost\TelegramBotHost.csproj" />
   </ItemGroup>
 
 </Project>

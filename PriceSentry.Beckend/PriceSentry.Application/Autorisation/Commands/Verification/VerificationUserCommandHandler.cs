@@ -22,8 +22,8 @@ namespace PriceSentry.Application.Autorisation.Commands.Verification {
             if (applicationUser == null || applicationUser.Email != request.Email)
                 throw new NotFoundException(nameof(ApplicationUser), request.Email);
 
-            //if (!await _storege.IsValidCodeAsync(request.Email, request.Code, cancellationToken))
-            //    throw new InvalidCodeException();
+            if (!await _storege.IsValidCodeAsync(request.Email, request.Code, cancellationToken))
+                throw new InvalidCodeException();
 
             await _storege.RemoveCodeAsync(request.Email, cancellationToken);
 

@@ -21,7 +21,7 @@ namespace PriceSentry.Persistence.Services {
 
                     await Task.Delay(_interval, cancellationToken);
 
-                } catch (Exception ex) { throw ex; }
+                } catch (Exception) { }
             }
         }
     }

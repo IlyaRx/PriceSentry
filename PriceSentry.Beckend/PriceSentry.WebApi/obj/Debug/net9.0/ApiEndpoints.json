@@ -27,6 +27,32 @@
   },
   {
     "ContainingType": "PriceSentry.WebApi.Controllers.AuthController",
+    "Method": "TelegrammUrl",
+    "RelativePath": "api/Auth/telegramUrl/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PriceSentry.WebApi.Controllers.AuthController",
     "Method": "Veryfy",
     "RelativePath": "api/Auth/verify",
     "HttpMethod": "POST",
@@ -216,25 +242,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "PriceSentry.WebApi.Controllers.TestController",
-    "Method": "CheckInjection",
-    "RelativePath": "api/test/check",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PriceSentry.WebApi.Controllers.TestController",
-    "Method": "CreateTestUser",
-    "RelativePath": "api/test/create",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
   }
 ]

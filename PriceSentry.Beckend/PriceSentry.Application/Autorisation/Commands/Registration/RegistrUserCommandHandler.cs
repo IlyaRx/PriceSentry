@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using PriceSentry.Application.Interfaces;
 using PriceSentry.Application.Interfaces.Notifications;
 using PriceSentry.Domain;
@@ -33,9 +32,7 @@ namespace PriceSentry.Application.Autorisation.Commands.Registration {
 
             var code = _generatedCode.GetCode();
             await _storeg.StoreCodeAsync(request.Email, code, cancellationToken);
-            //await _userNotificationService.SendCodeNotificationAsync(request.Email, code);
-            Console.WriteLine($"КОД ДЛЯ {request.Email}: {code}"); 
-            Console.WriteLine($"Redis ключ: email:{request.Email}");
+            await _userNotificationService.SendCodeNotificationAsync(request.Email, code);
 
             return applicationUser.Id;
         }

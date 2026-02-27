@@ -1,8 +1,6 @@
-﻿using AutoMapper.Internal.Mappers;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using PriceSentry.Application.Common.Exceptions;
 using PriceSentry.Application.Interfaces;
 using PriceSentry.Domain;
 
@@ -19,7 +17,7 @@ namespace PriceSentry.Application.Product.Commands.Create {
 
         public async Task<Guid> Handle(CreateProductCommand request, CancellationToken cancellationToken) {
             var user = await _userManager.FindByIdAsync(request.UserId.ToString());
-            var product = await _dbContext.Products.FirstOrDefaultAsync(p => p.ProductUrl == request.ProductUrl) ?? null;
+            var product = await _dbContext.Products.FirstOrDefaultAsync(p => p.ProductUrl == request.ProductUrl && p.UserId == request.UserId) ?? null;
 
             if(product != null)
                 return product.Id;

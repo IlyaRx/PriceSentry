@@ -52,6 +52,8 @@ builder.Services.AddAuthentication(options => {
     };
 });
 
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddAutoMapper(cfg => {
     cfg.AddProfile(new AssemplyMappingProfile(Assembly.GetExecutingAssembly()));
     cfg.AddProfile(new AssemplyMappingProfile(typeof(IPriceSentryDbContext).Assembly));
@@ -78,6 +80,8 @@ using (var scop = app.Services.CreateAsyncScope()) {
     }
 }
 
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseStaticFiles(); 
 app.UseRouting();

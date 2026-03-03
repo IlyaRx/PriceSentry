@@ -7,6 +7,7 @@ namespace PriceSentry.Persistence.Services {
     public class TrackingBackgroundService : BackgroundService {
         private readonly IServiceProvider _serviceProvider;
         private readonly TimeSpan _interval = TimeSpan.FromHours(24);
+        private readonly TimeSpan _errorDelay = TimeSpan.FromMinutes(5);
         public TrackingBackgroundService(IServiceProvider serviceProvider) {
             _serviceProvider = serviceProvider;
         }
@@ -21,7 +22,15 @@ namespace PriceSentry.Persistence.Services {
 
                     await Task.Delay(_interval, cancellationToken);
 
-                } catch (Exception) { }
+                } catch (Exception ex) {
+
+                    try {
+                        Console.WriteLine(ex.Message);
+                        await Task.Delay(_errorDelay, cancellationToken);
+                    } catch (OperationCanceledException) {
+                        break;
+                    }
+                }
             }
         }
     }

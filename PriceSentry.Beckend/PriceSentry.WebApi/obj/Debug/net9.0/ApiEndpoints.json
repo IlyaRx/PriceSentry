@@ -27,18 +27,12 @@
   },
   {
     "ContainingType": "PriceSentry.WebApi.Controllers.AuthController",
-    "Method": "TelegrammUrl",
-    "RelativePath": "api/Auth/telegramUrl/{id}",
+    "Method": "GetTelegramUrl",
+    "RelativePath": "api/Auth/telegramUrl",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.String",

@@ -1,10 +1,12 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using PriceSentry.Application.Autorisation.Commands.Registration;
 using PriceSentry.Application.Autorisation.Commands.Verification;
 using PriceSentry.Domain;
 using PriceSentry.WebApi.Models;
+using System.Security.Claims;
 using Telegram.Bot.Types;
 
 namespace PriceSentry.WebApi.Controllers {
@@ -18,9 +20,12 @@ namespace PriceSentry.WebApi.Controllers {
             _mediator = mediator;
         }
 
-        [HttpGet("telegramUrl/{id}")]
-        public ActionResult<string> TelegrammUrl(Guid id) {
-            return $"https://t.me/AssistantPearl_bot?start={id}";
+        [HttpGet("telegramUrl")]
+        [Authorize]
+        public ActionResult<string> GetTelegramUrl() { 
+            if (UserId == Guid.Empty)
+                return Unauthorized();
+            return Ok($"https://t.me/AssistantPearl_bot?start={UserId}");
         }
 
         [HttpPost("login")]

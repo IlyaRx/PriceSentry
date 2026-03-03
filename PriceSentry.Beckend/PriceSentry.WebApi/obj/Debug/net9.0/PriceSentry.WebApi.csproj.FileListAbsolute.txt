@@ -121,3 +121,4 @@ C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentr
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.WebApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.WebApi\obj\Debug\net9.0\PriceSentry.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.WebApi\obj\Debug\net9.0\PriceSentry.WebApi.sourcelink.json

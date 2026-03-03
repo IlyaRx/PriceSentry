@@ -23,14 +23,13 @@ namespace TelegramBotHost.Services {
         protected override async Task ExecuteAsync(CancellationToken stoppingToken) {
             _logger.LogInformation("Бот запускается...");
 
-            // Проверяем связь с Telegram
+
             var me = await _botClient.GetMe(stoppingToken);
             _logger.LogInformation("Бот @{BotUsername} успешно подключен", me.Username);
 
-            // Запускаем опрос (Long Polling)
             var receiverOptions = new ReceiverOptions {
-                AllowedUpdates = Array.Empty<UpdateType>(), // Все типы обновлений
-                DropPendingUpdates = true // Пропустить старые сообщения при старте
+                AllowedUpdates = Array.Empty<UpdateType>(), 
+                DropPendingUpdates = true 
             };
 
             try {
@@ -40,7 +39,6 @@ namespace TelegramBotHost.Services {
                     cancellationToken: stoppingToken
                 );
 
-                // Держим сервис запущенным, пока не придет сигнал остановки
                 await Task.Delay(Timeout.Infinite, stoppingToken);
             } catch (OperationCanceledException) {
                 _logger.LogWarning("Бот остановлен (отмена операции)");

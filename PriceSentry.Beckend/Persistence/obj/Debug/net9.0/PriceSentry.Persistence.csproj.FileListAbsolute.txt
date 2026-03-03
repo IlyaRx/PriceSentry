@@ -15,3 +15,4 @@ C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistenc
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\refint\PriceSentry.Persistence.dll
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.pdb
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\ref\PriceSentry.Persistence.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\Persistence\obj\Debug\net9.0\PriceSentry.Persistence.sourcelink.json

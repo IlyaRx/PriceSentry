@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PriceSentry.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48bdf8eeabac330c6bcce1a82d21090a69991156")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdda2fc0898b506453e42b907a5acc3c602ba802")]
 [assembly: System.Reflection.AssemblyProductAttribute("PriceSentry.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PriceSentry.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

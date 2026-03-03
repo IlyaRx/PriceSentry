@@ -1,0 +1,18 @@
+import { AuthProvider, useAuth } from './context/AuthContext';
+import LoginPage from './pages/LoginPage';
+import Dashboard from './pages/Dashboard';
+
+function AppContent() {
+  const { step } = useAuth();
+  return step === 'dashboard' ? <Dashboard /> : <LoginPage />;
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppContent />
+    </AuthProvider>
+  );
+}
+
+export default App;

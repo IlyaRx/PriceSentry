@@ -5,21 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Auth/telegramUrl/{id}": {
+    "/api/Auth/telegramUrl": {
       "get": {
         "tags": [
           "Auth"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
         ],
         "responses": {
           "200": {

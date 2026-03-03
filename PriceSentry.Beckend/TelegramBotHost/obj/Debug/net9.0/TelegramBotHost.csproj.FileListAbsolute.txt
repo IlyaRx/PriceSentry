@@ -15,3 +15,4 @@ C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\TelegramBo
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\TelegramBotHost\obj\Debug\net9.0\refint\TelegramBotHost.dll
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\TelegramBotHost\obj\Debug\net9.0\TelegramBotHost.pdb
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\TelegramBotHost\obj\Debug\net9.0\ref\TelegramBotHost.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\TelegramBotHost\obj\Debug\net9.0\TelegramBotHost.sourcelink.json

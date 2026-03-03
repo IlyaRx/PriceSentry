@@ -20,8 +20,8 @@ PriceSentry — это веб-приложение для отслеживани
 
 ### Требования
 
-*   [.NET SDK](https://dotnet.microsoft.com/download) (версия 8 или 9)
-*   [Node.js](https://nodejs.org/) (для фронтенда)
+*   [.NET SDK](https://dotnet.microsoft.com/download) 
+*   [Node.js](https://nodejs.org/) 
 *   Git
 
 ### Инструкция по запуску (локально)
@@ -53,13 +53,13 @@ PriceSentry — это веб-приложение для отслеживани
 4. Настройка Telegram-бота
 
 *   Создайте бота через @BotFather и получите токен.
-*   Добавьте токен в конфигурацию бэкенда (например, в appsettings.json).
+*   Добавьте токен в конфигурацию бэкенда в appsettings.json.
 
-### Скриншоты
-![Окно входа]<img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/8aa67203-f476-4b2c-be23-161a871b9aeb" />
-![Главный экран]<img width="1904" height="868" alt="image" src="https://github.com/user-attachments/assets/84f6395a-1747-4b6a-977b-76e2a7f6a6d2" />
+## Скриншоты
+![Окно входа](https://github.com/user-attachments/assets/8aa67203-f476-4b2c-be23-161a871b9aeb)
+![Главный экран](https://github.com/user-attachments/assets/84f6395a-1747-4b6a-977b-76e2a7f6a6d2)
 
-### Планы по развитию
+## Планы по развитию
 *   Добавить поддержку большего количества магазинов. (пока только ситилинк)
 *   Улучшить алгоритмы парсинга цен.
 *   Добавить графики изменения цен.

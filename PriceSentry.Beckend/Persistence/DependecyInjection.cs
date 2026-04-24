@@ -17,7 +17,7 @@ namespace PriceSentry.Persistence {
     public static class DependecyInjection {
         public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration) {
             var connectionString = configuration["DbConnection"];
-            var botToken = configuration["TelegramBot:Token"];
+            var botToken = Environment.GetEnvironmentVariable("TELEGRAM_TOKEN");
 
             services.AddDbContext<PriceSentryDbContext>(opt => opt.UseSqlite(connectionString));
             services.AddScoped<IPriceSentryDbContext>(provider => provider.GetService<PriceSentryDbContext>());

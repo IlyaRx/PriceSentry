@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PriceSentry.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48bdf8eeabac330c6bcce1a82d21090a69991156")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c195842ef2bedb7196e757febebc55828ca0dd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PriceSentry.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PriceSentry.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

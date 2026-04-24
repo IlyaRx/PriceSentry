@@ -10,8 +10,13 @@ namespace PriceSentry.Persistence.Services {
     public class EmailService : IEmailService {
         private readonly MailSettings _mailSettings;
 
-        public EmailService(IOptions<MailSettings> mailSettings) =>
+        public EmailService(IOptions<MailSettings> mailSettings) {
             _mailSettings = mailSettings.Value;
+            _mailSettings.UserName = Environment.GetEnvironmentVariable("MAIL")!;
+            _mailSettings.Password = Environment.GetEnvironmentVariable("MAIL_PASSWORD")!;
+            _mailSettings.From = Environment.GetEnvironmentVariable("MAIL")!;
+
+        }
         
         public async Task SendEmailAsync(string to, string subjec, string body) {
 
@@ -25,7 +30,6 @@ namespace PriceSentry.Persistence.Services {
             using (var client = new SmtpClient()) {
                 await client.ConnectAsync(_mailSettings.Host,
                                           _mailSettings.Port,
-                                          //SecureSocketOptions.StartTls);
                                           _mailSettings.UseSSL ?
                                             SecureSocketOptions.SslOnConnect :
                                             SecureSocketOptions.None);

@@ -14,6 +14,7 @@ namespace PriceSentry.Persistence.Services {
 
         public JwtTokenService(IOptions<JwtSettings> jwtSettings) {
             _jwtSettings = jwtSettings.Value;
+            _jwtSettings.Secret = Environment.GetEnvironmentVariable("SECRET")!;
         }
 
         public Task<string> GenerateTokenAsync(ApplicationUser user, CancellationToken cancellationToken) {

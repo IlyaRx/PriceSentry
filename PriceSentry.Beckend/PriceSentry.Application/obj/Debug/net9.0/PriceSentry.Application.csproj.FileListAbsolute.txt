@@ -13,3 +13,4 @@ C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentr
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\refint\PriceSentry.Application.dll
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.pdb
 C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\ref\PriceSentry.Application.dll
+C:\Users\ilyac\Documents\Repositories\PriceSentry\PriceSentry.Beckend\PriceSentry.Application\obj\Debug\net9.0\PriceSentry.Application.sourcelink.json

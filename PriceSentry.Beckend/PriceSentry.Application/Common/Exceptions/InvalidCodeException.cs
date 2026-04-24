@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PriceSentry.Application.Common.Exceptions {
     public class InvalidCodeException : Exception {
-        public InvalidCodeException() : base("Invalid code verification") { }
+        public InvalidCodeException() : base("Неверный код верификации") { }
 
     }
 }

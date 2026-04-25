@@ -7,6 +7,7 @@ using PriceSentry.Application.Interfaces.Notifications;
 using PriceSentry.Domain;
 using PriceSentry.Persistence.Configuration;
 using PriceSentry.Persistence.Interfases;
+using PriceSentry.Persistence.Providers;
 using PriceSentry.Persistence.Services;
 using PriceSentry.Persistence.Services.Notification;
 using PriceSentry.Persistence.Services.Shops;
@@ -20,10 +21,10 @@ namespace PriceSentry.Persistence {
             var botToken = Environment.GetEnvironmentVariable("TELEGRAM_TOKEN");
 
             services.AddDbContext<PriceSentryDbContext>(opt => opt.UseSqlite(connectionString));
-            services.AddScoped<IPriceSentryDbContext>(provider => provider.GetService<PriceSentryDbContext>());
+            services.AddScoped<IPriceSentryDbContext>(provider => provider.GetService<PriceSentryDbContext>()!);
 
             services.AddScoped<ITrackingService, TracingService>();
-            services.AddScoped<IProductPriceProvider, PriceParserService>();
+            services.AddScoped<IProductPriceProvider, PriceParserProvider>();
             services.AddScoped<IPriceNotificationService, TelegramNotificationService>();
             services.AddTransient<IEmailService, EmailService>();
             services.AddScoped<IPriceNotificationService, EmailNotificationService>();
@@ -36,6 +37,7 @@ namespace PriceSentry.Persistence {
 
             services.AddSingleton<IStoregCodeService, MemoryCodeService>();
             services.AddSingleton<IShopPriceParser, CitilinkParserPrice>();
+            services.AddSingleton<ITimeProvider, SystemTimeProvider>();
 
             if (string.IsNullOrEmpty(botToken))
                 throw new InvalidOperationException("TelegramBot:Token is not configured");

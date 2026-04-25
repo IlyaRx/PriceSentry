@@ -4,13 +4,13 @@ using PriceSentry.Persistence.Interfases;
 using System.IO.Compression;
 using System.Text;
 
-namespace PriceSentry.Persistence.Services {
-    public class PriceParserService : IProductPriceProvider {
+namespace PriceSentry.Persistence.Providers {
+    public class PriceParserProvider : IProductPriceProvider {
         private readonly IEnumerable<IShopPriceParser> _shopPriceParser;
-        private readonly ILogger<PriceParserService> _logger;
+        private readonly ILogger<PriceParserProvider> _logger;
 
-        public PriceParserService(IEnumerable<IShopPriceParser> shopPriceParser, 
-                                  ILogger<PriceParserService> logger) {
+        public PriceParserProvider(IEnumerable<IShopPriceParser> shopPriceParser, 
+                                  ILogger<PriceParserProvider> logger) {
             _shopPriceParser = shopPriceParser;
             _logger = logger;
         }

@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using System.Security.Cryptography.X509Certificates;
 
 namespace PriceSentry.Application.Product.Commands.Create {
     public class CreateProductCommand : IRequest<Guid>{

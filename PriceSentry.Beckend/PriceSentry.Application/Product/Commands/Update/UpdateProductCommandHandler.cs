@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using Microsoft.EntityFrameworkCore;
 using PriceSentry.Application.Common.Exceptions;
 using PriceSentry.Application.Interfaces;
 using PriceSentry.Domain;

@@ -1,17 +1,14 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PriceSentry.Application.Interfaces;
 using PriceSentry.Application.Interfaces.Notifications;
-using PriceSentry.Domain;
 using PriceSentry.Persistence.Configuration;
 using PriceSentry.Persistence.Interfases;
 using PriceSentry.Persistence.Providers;
 using PriceSentry.Persistence.Services;
 using PriceSentry.Persistence.Services.Notification;
 using PriceSentry.Persistence.Services.Shops;
-using System.Runtime.InteropServices;
 using Telegram.Bot;
 
 namespace PriceSentry.Persistence {

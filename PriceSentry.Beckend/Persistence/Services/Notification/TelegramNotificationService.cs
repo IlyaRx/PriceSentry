@@ -8,7 +8,7 @@ namespace PriceSentry.Persistence.Services.Notification {
     public class TelegramNotificationService : IPriceNotificationService {
         private readonly UserManager<ApplicationUser>_userManager;
         private readonly ITelegramBotClient _botClient;
-        public TelegramNotificationService(ITelegramBotClient telemetryClient, UserManager<ApplicationUser> userManager = null) {
+        public TelegramNotificationService(ITelegramBotClient telemetryClient, UserManager<ApplicationUser> userManager = null!) {
             _botClient = telemetryClient;
             _userManager = userManager;
         }

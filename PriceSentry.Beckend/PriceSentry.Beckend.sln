@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TelegrammBot", "TelegrammBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotHost", "TelegramBotHost\TelegramBotHost.csproj", "{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceSentry.Tests", "PriceSentry.Tests\PriceSentry.Tests.csproj", "{9D6B5815-4493-443B-A9D5-FF34A96EB728}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48251FCB-D8DF-48A6-9FA6-87E8A2326A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6B5815-4493-443B-A9D5-FF34A96EB728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6B5815-4493-443B-A9D5-FF34A96EB728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6B5815-4493-443B-A9D5-FF34A96EB728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6B5815-4493-443B-A9D5-FF34A96EB728}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

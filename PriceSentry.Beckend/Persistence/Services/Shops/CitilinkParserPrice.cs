@@ -1,8 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using PriceSentry.Application.Common.Exceptions;
 using PriceSentry.Persistence.Interfases;
-using Serilog.Core;
-using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
 namespace PriceSentry.Persistence.Services.Shops {

@@ -19,7 +19,7 @@ namespace PriceSentry.Tests.Handlers {
 
         public VerificationUserCommandHandlerTests() {
             _userManagerMock = new Mock<UserManager<ApplicationUser>>(
-                Mock.Of<IUserStore<ApplicationUser>>(), null, null, null, null, null, null, null, null);
+                Mock.Of<IUserStore<ApplicationUser>>(), null!, null!, null!, null!, null!, null!, null!, null!);
             _storegeMock = new Mock<IStoregCodeService>();
             _tokenServiceMock = new Mock<ITokenService>();
 
@@ -61,7 +61,7 @@ namespace PriceSentry.Tests.Handlers {
             var command = new VerificationUserCommand { Email = email, Code = "123456" };
 
             _userManagerMock.Setup(x => x.FindByEmailAsync(email))
-                .ReturnsAsync((ApplicationUser)null);
+                .ReturnsAsync((ApplicationUser)null!);
 
             // Act & Assert
             await Assert.ThrowsAsync<NotFoundException>(

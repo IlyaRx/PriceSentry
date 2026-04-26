@@ -4,12 +4,12 @@ import { authApi } from '../api';
 
 interface AuthContextType {
   token: string | null;
-  userId: string | null; // 👈 Добавляем ID пользователя
+  userId: string | null; 
   step: 'login' | 'verify' | 'dashboard';
   login: (email: string) => Promise<void>;
   verify: (code: string) => Promise<void>;
   logout: () => void;
-  bindTelegram: () => Promise<string | null>; // 👈 Метод для привязки
+  bindTelegram: () => Promise<string | null>; 
 }
 
 const AuthContext = createContext<AuthContextType | null>(null);

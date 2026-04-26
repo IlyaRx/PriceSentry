@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: pricesentry-backend
+    ports:
+      - "5000:80"   # Хост:5000 → контейнер:80
+    volumes:
+      - sqlite_data:/app   # Том для базы данных
+    env_file:
+      - .env                    # Загружаем переменные из файла .env
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: pricesentry-frontend
+    ports:
+      - "3000:80"   # Хост:3000 → контейнер:80
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:

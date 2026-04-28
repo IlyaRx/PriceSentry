@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using PriceSentry.Application.Common.Exceptions;
 using PriceSentry.Persistence.Interfases;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace PriceSentry.Persistence.Services.Shops {
@@ -8,6 +9,7 @@ namespace PriceSentry.Persistence.Services.Shops {
         public CitilinkParserPrice(HttpClient httpClient, ILogger<IShopPriceParser> logger) : base(httpClient, logger) { }
 
         public override bool CanParse(string url) {
+            if(url is null) return false;
             bool can = url.Contains("citilink.ru");
             _logger.LogDebug("Проверка URL {Url} для Citilink: {Result}", url, can ? "да" : "нет");
             return can;
@@ -23,7 +25,7 @@ namespace PriceSentry.Persistence.Services.Shops {
             }
 
 
-            var match = Regex.Match(html, @"data-meta-price=""([\d\s]+)""");
+            var match = Regex.Match(html, @"data-meta-price=""([\d\s.,]+)""");
             if (match.Success) {
                 var priceStr = match.Groups[1].Value.Replace(" ", "");
                 var price = decimal.Parse(priceStr);

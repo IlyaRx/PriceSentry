@@ -51,21 +51,21 @@ namespace PriceSentry.Persistence.Services.Shops {
                 throw new HttpRequestException($"HTTP ошибка {response.StatusCode} при загрузке {url}");
             }
 
-            var bytes = await response.Content.ReadAsByteArrayAsync();
+            var bytes = await response.Content.ReadAsByteArrayAsync(cancellationToken);
 
             string html;
             if (response.Content.Headers.ContentEncoding.Contains("gzip")) {
                 using var stream = new MemoryStream(bytes);
                 using var gzipStream = new GZipStream(stream, CompressionMode.Decompress);
                 using var reader = new StreamReader(gzipStream);
-                html = await reader.ReadToEndAsync();
+                html = await reader.ReadToEndAsync(cancellationToken);
                 _logger.LogDebug("Страница {Url} распакована (gzip). Размер: {Size} байт", url, html.Length);
             }
             else if (response.Content.Headers.ContentEncoding.Contains("deflate")) {
                 using var stream = new MemoryStream(bytes);
                 using var deflateStream = new DeflateStream(stream, CompressionMode.Decompress);
                 using var reader = new StreamReader(deflateStream);
-                html = await reader.ReadToEndAsync();
+                html = await reader.ReadToEndAsync(cancellationToken);
                 _logger.LogDebug("Страница {Url} распакована (deflate). Размер: {Size} байт", url, html.Length);
             }
             else {

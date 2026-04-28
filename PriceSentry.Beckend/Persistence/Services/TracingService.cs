@@ -35,6 +35,7 @@ namespace PriceSentry.Persistence.Services {
                 try {
                     var currentPrice = await _priceParserService.GetPriceAsync(product.ProductUrl, cancellationToken);
 
+                    _logger.LogInformation($"Ищу соответствии усовий оповещения {product.Title} - {currentPrice}₽, ответ {_priceDropChecker.ShouldNotify(product, currentPrice)}");
                     if (_priceDropChecker.ShouldNotify(product, currentPrice)) {
                         _logger.LogInformation($"Найдено соответствии усовий оповещения {product.Title} - {currentPrice}₽");
                         foreach (var notification in _notificationService) {
